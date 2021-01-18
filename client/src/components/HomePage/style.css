@@ -149,3 +149,46 @@
         z-index: 2;
     }
 
+    .status img {
+        width: 100%;
+    }
+
+    .status-main {
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .status,
+    .status-inp {
+        padding: 0 10px;
+    }
+
+    .sp_VACnRvZAAMq {
+        background-image: url(../../assets/images/-VvtRQFIp-7.png);
+        background-size: auto;
+        background-repeat: no-repeat;
+        display: inline-block;
+        height: 24px;
+        width: 24px;
+    }
+    .sp_VACnRvZAAMq.sx_f26c61 {
+        background-position: 0 -75px;
+    }
+    .sp_VACnRvZAAMq.sx_20b3a8 {
+        background-position: 0 -50px;
+    }
+
+    .sp_VACnRvZAAMq.sx_5439a7 {
+        background-position: 0 -25px;
+    }
+
+    .icon-status {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    .list-st {
+        padding: 0;
+        margin: 0;
+    }
+
