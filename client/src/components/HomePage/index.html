@@ -1,65 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
     <link rel="stylesheet" href="../../libs/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body class="body">
-    <header>
-        <nav class="navbar navbar-expand-md bg-dark navbar-dark d-flex justify-content-between">
-            <div class="menu-top-left d-flex">
-                <a class="navbar-brand" href="#">Social Network App</a>
-                <form class="form-inline" action="/action_page.php">
-                    <input class="form-control mr-sm-2 bg-3a inp-search" type="text" placeholder="Tìm kiếm trên Facebook">
-                </form>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-                </button> 
-            </div>
-            <div class="button-menu-nav">
-                <ul class="list-top-menu">
-                    <li class="item-top-menu text-center active"><a href="#"><i class="fa fa-home" aria-hidden="true"></i></a></li>
-                    <li class="item-top-menu text-center"><a href="#"><i class="fa fa-users" aria-hidden="true"></i></a></li>
-                    <li class="item-top-menu text-center"><a href="#"><i class="fa fa-clock" aria-hidden="true"></i></a></li>
-                    <li class="item-top-menu text-center"><a href="#"><i class="fa fa-user-circle" aria-hidden="true"></i></a></li>
-                </ul>
-            </div>
-            <div class="top-menu-right">
-                <ul class="list-tr-menu">
-                    <li class="item-top-menu-right"><a href="#"><i class="fa fa-user" aria-hidden="true"></i><span class="ml-2 text-white">Vũ</span> </a></li>
-                    <li class="item-top-menu-right"><a href="#"><i class="fa fa-comment" aria-hidden="true"></i></a></li>
-                    <li class="item-top-menu-right"><a href="#"><i class="fa fa-bell" aria-hidden="true"></i></a></li>
-                    <li class="item-top-menu-right"><a href="#"><i class="fa fa-chevron-down" aria-hidden="true"></i></a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
     <div class="container-fluid bg-dark h-100">
-        <div class="row">
-            <div class="col-lg-4 h-100">
-                <nav class="navbar navbar-expand-md">
+        <header>
+            <nav class="menu-top navbar navbar-expand-md bg-7c navbar-dark d-flex justify-content-between">
+                <div class="menu-top-left d-flex">
+                    <a class="navbar-brand" href="#">Social Network App</a>
+                    <form class="form-inline" action="/action_page.php">
+                        <input class="form-control mr-sm-2 bg-3a inp-search" type="text"
+                            placeholder="Tìm kiếm trên Facebook">
+                    </form>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="button-menu-nav">
+                    <ul class="list-top-menu">
+                        <li class="item-top-menu text-center active"><a href="#"><i class="fa fa-home"
+                                    aria-hidden="true"></i></a></li>
+                        <li class="item-top-menu text-center"><a href="#"><i class="fa fa-users" aria-hidden="true"></i></a>
+                        </li>
+                        <li class="item-top-menu text-center"><a href="#"><i class="fa fa-clock" aria-hidden="true"></i></a>
+                        </li>
+                        <li class="item-top-menu text-center"><a href="#"><i class="fa fa-user-circle"
+                                    aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+                <div class="top-menu-right d-none d-md-block">
+                    <ul class="list-tr-menu">
+                        <li class="item-top-menu-right"><a href="#"><i class="fa fa-user" aria-hidden="true"></i><span
+                                    class="ml-2 text-white">Vũ</span> </a></li>
+                        <li class="item-top-menu-right"><a href="#"><i class="fa fa-comment" aria-hidden="true"></i></a>
+                        </li>
+                        <li class="item-top-menu-right"><a href="#"><i class="fa fa-bell" aria-hidden="true"></i></a></li>
+                        <li class="item-top-menu-right"><a href="#"><i class="fa fa-chevron-down"
+                                    aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="row  pt-3">
+            <div class="col-lg-4">
+                <nav class="navbar navbar-expand-md menu-left">
                     <div class="collapse navbar-collapse" id="collapsibleNavbar">
                         <ul class="slider-b-rigt">
-                            <li class="item-r mb-3">
-                            <a class="text-white" href="#"><i class="fa fa-user" aria-hidden="true"></i><span class="ml-2 text-white">Vũ</span></a>
-                            </li> 
-                            <li class="item-r mb-3">
-                            <a class="text-white" href="#"><i class="fa fa-user" aria-hidden="true"></i><span class="ml-2 text-white">Vũ</span></a>
+                            <li class="item-r">
+                                <a class="text-white" href="#"><i class="fa fa-user" aria-hidden="true"></i><span
+                                        class="ml-2 text-white">Vũ</span></a>
                             </li>
-                            <li class="item-r mb-3">
-                            <a class="text-white" href="#"><i class="fa fa-user" aria-hidden="true"></i><span class="ml-2 text-white">Vũ</span></a>
+                            <li class="item-r">
+                                <a class="text-white" href="#"><img src="../../assets/images/ban-be.png" alt=""> Bạn
+                                    bè</span></a>
                             </li>
-                            <li class="item-r mb-3">
-                            <a class="text-white" href="#"><i class="fa fa-user" aria-hidden="true"></i><span class="ml-2 text-white">Vũ</span></a>
+                            <li class="item-r">
+                                <a class="text-white" href="#"> <img src="../../assets/images/trang.png" alt="">
+                                    Trang</span></a>
+                            </li>
+                            <li class="item-r">
+                                <a class="text-white" href="#"><img src="../../assets/images/makarting.png" alt="">
+                                    Marketplace</span></a>
+                            </li>
+                            <li class="item-r">
+                                <a class="text-white" href="#"><img src="../../assets/images/nhom.png" alt="">
+                                    Nhóm</span></a>
                             </li>
                         </ul>
-                    </div> 
-                </nav></div>
-            <div class="col-lg-4 h-100"></div>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-lg-4 h-100">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="content-main  bg-7c mb-3">
+                            <div class="author">
+                                <div class="author-main pb-2">
+                                    <a href="#"><img src="../../assets/images/avatar-2.jpg" alt=""></a>
+                                    <a href="#">
+                                        <span class="text-white">Thanh Tâm</span>
+                                    </a>
+                                </div>
+                                <div class="author-status">
+                                    <span class="text-white">Chết Cười :))</span>
+                                </div>
+                            </div>
+                            <div class="img-content">
+                                <a href="#"><img src="../../assets/images/img-c-1.jpg" alt=""></a>
+                            </div>
+                            <div class="reaction-comment d-flex justify-content-between">
+                                <div class="reaction">
+                                        <img src="../../assets/images/linke.png" alt="icon">
+                                        <img src="../../assets/images/happy.png" alt="icon">
+                                        <img src="../../assets/images/heart.png" alt="icon">
+                                    <a href="#">
+                                        <span class="text-white"> 1,9k</span>
+                                    </a>
+                                </div>
+                                <div class="comment d-flex">
+                                    <a class="text-white mr-2" href="#">26 bình luận</a>
+                                    <a class="text-white mr-2" href="#">86 lượt chia sẻ</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="content-main  bg-7c mb-3">
+                            <div class="author">
+                                <div class="author-main pb-2">
+                                    <a href="#"><img src="../../assets/images/avatar-2.jpg" alt=""></a>
+                                    <a href="#">
+                                        <span class="text-white">Thanh Tâm</span>
+                                    </a>
+                                </div>
+                                <div class="author-status">
+                                    <span class="text-white">Chết Cười :))</span>
+                                </div>
+                            </div>
+                            <div class="img-content">
+                                <a href="#"><img src="../../assets/images/img-c-1.jpg" alt=""></a>
+                            </div>
+                            <div class="reaction-comment d-flex justify-content-between">
+                                <div class="reaction">
+                                        <img src="../../assets/images/linke.png" alt="icon">
+                                        <img src="../../assets/images/happy.png" alt="icon">
+                                        <img src="../../assets/images/heart.png" alt="icon">
+                                    <a href="#">
+                                        <span class="text-white"> 1,9k</span>
+                                    </a>
+                                </div>
+                                <div class="comment d-flex">
+                                    <a class="text-white mr-2" href="#">26 bình luận</a>
+                                    <a class="text-white mr-2" href="#">86 lượt chia sẻ</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="col-lg-4 h-100"></div>
         </div>
     </div>
@@ -69,13 +154,14 @@
     <script src="script.js"></script>
     <!-- Jquery -->
     <script>
-        $(document).ready(function() {
+        $(document).ready(function () {
             //get
-            $('.btn-primary').click(function() {
+            $('.btn-primary').click(function () {
                 $('.alert').removeClass("disabled")
             })
         })
     </script>
 
 </body>
+
 </html>

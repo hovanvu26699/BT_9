@@ -1,12 +1,38 @@
     
     
+    a {
+        color: inherit;
+    }
+
+    .item-r a:hover {
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #fff;
+        text-decoration: underline;
+    }
+
+    .img-content img {
+        width: 100%;
+    }
+
+    .bg-7c {
+        background-color:#4b4848;
+    }
+
+    .menu-top {
+        border-bottom: 1px solid #7c7c7c;
+    }
+
     .bg-3a {
-        background-color: #3a3b3c;
+        background-color: rgb(36 37 38 / 1);
     }
 
     .inp-search {
         border-radius: 50px;
         border-color: inherit;
+        color: #fff;
     }
 
     .inp-search:focus {
@@ -14,6 +40,7 @@
         border-color: inherit;
         outline: 0;
         box-shadow: unset;
+        color: #fff;
     }
 
     .list-top-menu {
@@ -46,10 +73,16 @@
         border-bottom: 2px solid #007bff;
     }
 
-    .item-r i,
-    .item-top-menu i,
+    .item-top-menu i {
+        font-size: 24px;
+    }
+
+    .item-r i {
+        font-size: 20px;
+    }
+
     .item-top-menu-right i {
-        font-size: x-large;
+        font-size: 16px;
     }
 
     .list-tr-menu {
@@ -65,6 +98,54 @@
     }
 
     .slider-b-rigt {
-    list-style-type: none;
+        list-style-type: none;
+        width: 100%;
+        padding: 0;
+    }
+
+    .item-r-users i {
+        color: #007bff;
+        border-radius:50% ;
+        padding: 10px;
+    }
+
+    .item-r {
+        padding: 5px 5px 5px 10px;
+    }
+
+    .item-r:hover {
+        background-color: #7c7c7c;
+        border-radius: 5px;
+    }
+
+    .author {
+        padding: 10px;
+    }
+
+    .content-main {
+        border-radius: 10px;
+    }
+
+    .reaction img {
+        width: 10%;
+    }
+
+    .reaction {
+        width: 50%;
+    }
+
+    .reaction-comment {
+        padding: 10px;
+    }
+
+    .menu-left {
+        position: sticky;
+        top: 75px;
+    }
+
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 2;
     }
 
