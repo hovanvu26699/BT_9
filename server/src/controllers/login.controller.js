@@ -1,4 +1,4 @@
-const { users } = require('../data/data')
+const { users } = require('../data/data');
 
 module.exports.login = (req, res) => {
     const { email, password } = req.body
