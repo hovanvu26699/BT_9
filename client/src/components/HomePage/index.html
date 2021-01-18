@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="../../libs/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+    <header>
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark d-flex justify-content-between">
+            <div class="menu-top-left d-flex">
+                <a class="navbar-brand" href="#">Social Network App</a>
+                <form class="form-inline" action="/action_page.php">
+                    <input class="form-control mr-sm-2 bg-3a inp-search" type="text" placeholder="Tìm kiếm trên Facebook">
+                </form>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+                </button> 
+            </div>
+            <div class="button-menu-nav">
+                <ul class="list-top-menu">
+                    <li class="item-top-menu text-center active"><a href="#"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+                    <li class="item-top-menu text-center"><a href="#"><i class="fa fa-users" aria-hidden="true"></i></a></li>
+                    <li class="item-top-menu text-center"><a href="#"><i class="fa fa-clock" aria-hidden="true"></i></a></li>
+                    <li class="item-top-menu text-center"><a href="#"><i class="fa fa-user-circle" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+            <div class="top-menu-right">
+                <ul class="list-tr-menu">
+                    <li class="item-top-menu-right"><a href="#"><i class="fa fa-user" aria-hidden="true"></i><span class="ml-2 text-white">Vũ</span> </a></li>
+                    <li class="item-top-menu-right"><a href="#"><i class="fa fa-comment" aria-hidden="true"></i></a></li>
+                    <li class="item-top-menu-right"><a href="#"><i class="fa fa-bell" aria-hidden="true"></i></a></li>
+                    <li class="item-top-menu-right"><a href="#"><i class="fa fa-chevron-down" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid bg-dark h-100">
+        <div class="row">
+            <div class="col-lg-4 h-100">
+                <nav class="navbar navbar-expand-md">
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="slider-b-rigt">
+                            <li class="item-r mb-3">
+                            <a class="text-white" href="#"><i class="fa fa-user" aria-hidden="true"></i><span class="ml-2 text-white">Vũ</span></a>
+                            </li> 
+                            <li class="item-r mb-3">
+                            <a class="text-white" href="#"><i class="fa fa-user" aria-hidden="true"></i><span class="ml-2 text-white">Vũ</span></a>
+                            </li>
+                            <li class="item-r mb-3">
+                            <a class="text-white" href="#"><i class="fa fa-user" aria-hidden="true"></i><span class="ml-2 text-white">Vũ</span></a>
+                            </li>
+                            <li class="item-r mb-3">
+                            <a class="text-white" href="#"><i class="fa fa-user" aria-hidden="true"></i><span class="ml-2 text-white">Vũ</span></a>
+                            </li>
+                        </ul>
+                    </div> 
+                </nav></div>
+            <div class="col-lg-4 h-100"></div>
+            <div class="col-lg-4 h-100"></div>
+        </div>
+    </div>
+    <!-- Import depedencies -->
+    <script src="../../libs/jquery/jquery-3.5.1.js"></script>
+    <script src="../../libs/bootstrap/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <!-- Jquery -->
+    <script>
+        $(document).ready(function() {
+            //get
+            $('.btn-primary').click(function() {
+                $('.alert').removeClass("disabled")
+            })
+        })
+    </script>
+
+</body>
+</html>
